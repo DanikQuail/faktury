@@ -44,6 +44,15 @@ public class Main {
                 } else if (data2015.get (i)[1] .equals( "33828139")){
                     data2015.get(i)[1] = "ZCZ";
                 }
+                if (data2015.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2015.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2015.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2015.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2015.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2015.get(i)[2] = "CELKEM_V_KČ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -99,6 +108,15 @@ public class Main {
                 } else if (data2016.get (i)[1] .equals( "33828139")){
                     data2016.get(i)[1] = "ZCZ";
                 }
+                if (data2016.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2016.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2016.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2016.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2016.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2016.get(i)[2] = "CELKEM_V_KČ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -152,6 +170,15 @@ public class Main {
                     data2017.get(i)[1] = "Valza";
                 } else if (data2017.get (i)[1] .equals( "33828139")){
                     data2017.get(i)[1] = "ZCZ";
+                }
+                if (data2017.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2017.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2017.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2017.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2017.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2017.get(i)[2] = "CELKEM_V_KČ";
                 }
             }
         }catch (IOException e){
@@ -207,6 +234,15 @@ public class Main {
                 } else if (data2018.get (i)[1] .equals( "33828139")){
                     data2018.get(i)[1] = "ZCZ";
                 }
+                if (data2018.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2018.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2018.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2018.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2018.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2018.get(i)[2] = "CELKEM_V_KČ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -260,6 +296,15 @@ public class Main {
                     data2019.get(i)[1] = "Valza";
                 } else if (data2019.get (i)[1] .equals( "33828139")){
                     data2019.get(i)[1] = "ZCZ";
+                }
+                if (data2019.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2019.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2019.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2019.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2019.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2019.get(i)[2] = "CELKEM_V_KČ";
                 }
             }
         }catch (IOException e){
@@ -315,6 +360,15 @@ public class Main {
                 } else if (data2020.get (i)[1] .equals( "33828139")){
                     data2020.get(i)[1] = "ZCZ";
                 }
+                if (data2020.get(i)[0].equals("ČÍSLO FAKTURY")){
+                    data2020.get(i)[0] = "POŘADOVÉ_ČÍSLO";
+                }
+                if (data2020.get(i)[1].equals("IČO SPOLEČNOSTI")){
+                    data2020.get(i)[1] = "NÁZEV_SPOLEČNOSTI";
+                }
+                if (data2020.get(i)[2].equals("ČÁSTKA (V CELÝCH KČ)")){
+                    data2020.get(i)[2] = "CELKEM_V_KČ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -340,7 +394,5 @@ public class Main {
         }
 
         //endregion2
-
     }
-
 }
