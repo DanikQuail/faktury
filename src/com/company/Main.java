@@ -32,6 +32,10 @@ public class Main {
 
             for (int i = 0; i < data.size(); i++) {
                 br.write(data.get(i)[0]);
+                br.write(";");
+                br.write(data.get(i)[1]);
+                br.write(";");
+                br.write(data.get(i)[2]);
                 br.newLine();
             }
 
