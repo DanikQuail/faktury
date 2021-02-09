@@ -14,6 +14,8 @@ public class Main {
         ArrayList<String[]> data2019 = new ArrayList<>();
         ArrayList<String[]> data2020 = new ArrayList<>();
 
+
+        
         //region :read2015
         try {
             BufferedReader br = new BufferedReader(new FileReader("data/VF_2015.dat"));
@@ -26,9 +28,27 @@ public class Main {
 
                 nextLine = br.readLine();
             }
+            for (int i = 0; i < data2015.size(); i++) {
+                if (data2015.get(i)[1].equals("05159822")){
+                    data2015.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2015.get (i)[1].equals("06230932")){
+                    data2015.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2015.get (i)[1].equals("18539217")){
+                    data2015.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2015.get (i)[1] .equals( "02838109")){
+                    data2015.get(i)[1] = "Martin Nový";
+                } else if (data2015.get (i)[1] .equals( "01846359")){
+                    data2015.get(i)[1] = "GreenStyles.";
+                } else if (data2015.get (i)[1] .equals( "9831829")){
+                    data2015.get(i)[1] = "Valza";
+                } else if (data2015.get (i)[1] .equals( "33828139")){
+                    data2015.get(i)[1] = "ZCZ";
+                }
+            }
         }catch (IOException e){
             e.printStackTrace();
         }
+
         //endregion
 
         //region: write2015
@@ -62,6 +82,23 @@ public class Main {
 
 
                 nextLine2 = br2.readLine();
+            }
+            for (int i = 0; i < data2016.size(); i++) {
+                if (data2016.get(i)[1] .equals( "05159822")){
+                    data2016.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2016.get (i)[1] .equals( "06230932")){
+                    data2016.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2016.get (i)[1] .equals( "18539217")){
+                    data2016.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2016.get (i)[1] .equals( "02838109")){
+                    data2016.get(i)[1] = "Martin Nový";
+                } else if (data2016.get (i)[1] .equals( "01846359")){
+                    data2016.get(i)[1] = "GreenStyles.";
+                } else if (data2016.get (i)[1] .equals( "9831829")){
+                    data2016.get(i)[1] = "Valza";
+                } else if (data2016.get (i)[1] .equals( "33828139")){
+                    data2016.get(i)[1] = "ZCZ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -100,6 +137,23 @@ public class Main {
 
                 nextLine3 = br3.readLine();
             }
+            for (int i = 0; i < data2017.size(); i++) {
+                if (data2017.get(i)[1] .equals( "05159822")){
+                    data2017.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2017.get (i)[1] .equals( "06230932")){
+                    data2017.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2017.get (i)[1] .equals( "18539217")){
+                    data2017.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2017.get (i)[1] .equals( "02838109")){
+                    data2017.get(i)[1] = "Martin Nový";
+                } else if (data2017.get (i)[1] .equals( "01846359")){
+                    data2017.get(i)[1] = "GreenStyles.";
+                } else if (data2017.get (i)[1] .equals( "9831829")){
+                    data2017.get(i)[1] = "Valza";
+                } else if (data2017.get (i)[1] .equals( "33828139")){
+                    data2017.get(i)[1] = "ZCZ";
+                }
+            }
         }catch (IOException e){
             e.printStackTrace();
         }
@@ -136,6 +190,23 @@ public class Main {
 
 
                 nextLine4 = br4.readLine();
+            }
+            for (int i = 0; i < data2018.size(); i++) {
+                if (data2018.get(i)[1] .equals( "05159822")){
+                    data2018.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2018.get (i)[1] .equals( "06230932")){
+                    data2018.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2018.get (i)[1] .equals( "18539217")){
+                    data2018.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2018.get (i)[1] .equals( "02838109")){
+                    data2018.get(i)[1] = "Martin Nový";
+                } else if (data2018.get (i)[1] .equals( "01846359")){
+                    data2018.get(i)[1] = "GreenStyles.";
+                } else if (data2018.get (i)[1] .equals( "9831829")){
+                    data2018.get(i)[1] = "Valza";
+                } else if (data2018.get (i)[1] .equals( "33828139")){
+                    data2018.get(i)[1] = "ZCZ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -174,6 +245,23 @@ public class Main {
 
                 nextLine5 = br5.readLine();
             }
+            for (int i = 0; i < data2019.size(); i++) {
+                if (data2019.get(i)[1] .equals( "05159822")){
+                    data2019.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2019.get (i)[1] .equals( "06230932")){
+                    data2019.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2019.get (i)[1] .equals( "18539217")){
+                    data2019.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2019.get (i)[1] .equals( "02838109")){
+                    data2019.get(i)[1] = "Martin Nový";
+                } else if (data2019.get (i)[1] .equals( "01846359")){
+                    data2019.get(i)[1] = "GreenStyles.";
+                } else if (data2019.get (i)[1] .equals( "9831829")){
+                    data2019.get(i)[1] = "Valza";
+                } else if (data2019.get (i)[1] .equals( "33828139")){
+                    data2019.get(i)[1] = "ZCZ";
+                }
+            }
         }catch (IOException e){
             e.printStackTrace();
         }
@@ -210,6 +298,23 @@ public class Main {
 
 
                 nextLine6 = br6.readLine();
+            }
+            for (int i = 0; i < data2020.size(); i++) {
+                if (data2020.get(i)[1] .equals( "05159822")){
+                    data2020.get (i)[1] = "BlueNet, s.r.o.";
+                } else if (data2020.get (i)[1] .equals( "06230932")){
+                    data2020.get(i)[1] = "Epic Internet a.s.";
+                } else if (data2020.get (i)[1] .equals( "18539217")){
+                    data2020.get(i)[1] = "Big žirafa s.r.o.";
+                } else if (data2020.get (i)[1] .equals( "02838109")){
+                    data2020.get(i)[1] = "Martin Nový";
+                } else if (data2020.get (i)[1] .equals( "01846359")){
+                    data2020.get(i)[1] = "GreenStyles.";
+                } else if (data2020.get (i)[1] .equals( "9831829")){
+                    data2020.get(i)[1] = "Valza";
+                } else if (data2020.get (i)[1] .equals( "33828139")){
+                    data2020.get(i)[1] = "ZCZ";
+                }
             }
         }catch (IOException e){
             e.printStackTrace();
